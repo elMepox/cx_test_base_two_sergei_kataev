@@ -8,9 +8,10 @@
     "application": False,
     "installable": True,
     "depends": [
-         "sale",
+         "sale_management",
     ],
     "data": [
-        "views/sale_order_line.xml"
+        "views/sale_order_line.xml",
+        "report/sale_order_report.xml",
     ],
 }
